@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************************HTML5 RESET******************/
+body{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; color: #333333; font-size: 12px; background:url(/img/template1/theme2/body_bg.png) repeat-x}
+input, select, textarea {font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+
+h1,h2,h3,h4,h5,ul,li,p,div,form{margin:0px; padding:0px;}
+h1,h2,h3,h4,h5{line-height:normal;}
+h1{font-size:22px;}
+h2{font-size:18px;}
+h3{font-size:16px;}
+h4{font-size:14px;}
+h5{font-size:12px;}
+ul,li{list-style:none;}
+
+a{color:#404040; text-decoration:none; outline: none;}
+a:hover{text-decoration: underline;}
+
+textarea{color:#a3a3a3; font-weight:bold;}
+
+.clear{clear:both; line-height:0px; font-size:0px;}
+img {border:none;}
+section, article, aside, header, footer, nav, dialog, figure {display:block; padding:0px; margin:0px; }
+
+/**** WRAPPER ******/
+#wrapper		{ width:100%;}
+
+/*** Header ***/
+#header				{ height:156px; width:980px; margin:auto}
+#logo				{ float:left; width:302px; }
+#logo h1			{ font-size:52px; font-weight:lighter; font-family:"Times New Roman"; font-style:italic; color:#fff; padding-top:42px;}
+#logo span			{ color:#F00}
+
+
+#nav				{ float:right;}
+#nav-align			{ overflow:hidden;  }
+#nav li				{ float:left; font-weight:lighter; text-transform:capitalize; }
+#nav li a			{ font-size:16px; color:#FFF;padding:65px 8px 2px ; display:block; margin:0 10px}
+#nav li a:hover, 
+#nav li a.active	{ text-decoration:none; background:#F00}
+#nav li.last		{ background:none;}
+
+
+#content			{ background:url(/img/template1/theme2/content_bg.png) repeat-x; clear:both; padding:42px 0; overflow:hidden}
+#content_wrap		{ width:980px; margin:auto;}
+#left-widget	 	{ float:left; width:628px;}
+#right-widget		{ float:right; width:276px;  overflow:hidden; background:#f3f0f0; padding:16px 13px }
+
+
+.post				{ display:block; clear:both;} 
+.post_title			{ color:#ff0000; font-weight:lighter; font-size:24px; margin:8px 0; }
+.post_content		{ float:left; clear:both; text-align:justify; line-height:18px}
+.post_content img	{ float:left; margin:0 18px 15px 0}
+
+.readmore			{ width:100%; border-top:1px solid #ccc; display:inline-block; text-align:right; margin:14px 0 }
+.readmore a			{ background:#F00; font-size:11px; color:#FFF; padding:5px; margin-top:-1px; display:inline-block}
+
+.search				{ clear:both;}
+.search_text		{ width:207px; height:27px; border:1px solid #9c9c9c;}
+.search_btn 		{ background: none repeat scroll 0 0 #FF0000; border: 0 none; height: 30px; margin-left: 5px; width: 55px; color:#FFF}
+
+
+.category			{ clear:both; margin:25px 0 20px 0}
+.blogroll			{ clear:both; margin:25px 0 20px 0}
+.archieves			{ clear:both; margin:25px 0 20px 0}
+h1.line				{ width:100%; padding-bottom:3px; border-bottom:1px solid #ccc; font-size:20px; color:#F00; font-weight:lighter; margin:10px 0 }
+
+ul.listing			{ margin:0;}
+ul.listing li a		{ background:url(/img/template1/theme2/bullet.png) left no-repeat; padding-left:10px; line-height:25px;}
+
+
+#footer				{ background:#1f2227; padding:20px 0 0 0; clear:both; display:block; overflow:hidden }
+#footer-wrap		{ margin:auto; width:980px; overflow:hidden}
+.foot_left			{ width:580px; border-right:1px solid #303234; float:left; color:#FFF; font-size:12px; padding-right:25px; min-height:210px;}
+.foot_right			{ width:348px; overflow:hidden; float:right; color:#FFF;}
+.foot_left h1, 
+.foot_right h1		{  font-weight:lighter}
+.foot_left p{ line-height:19px; margin:8px 0}
+.foot_left a{color:#FF0000; text-decoration:underline;}
+.foot_left a:hover{text-decoration:none;}
+
+ul#gallery			{ margin:0;}
+ul#gallery li		{ float:left; background:#5d6573; padding:3px 3px 0px 3px ; margin:3px}
+ul#gallery img		{ width:104px; height:78px; }
+ul#gallery li:hover	{ background:#ff0000; padding:3px 3px 0px 3px ; margin:3px}
+ul#gallery li a		{ display:block;}
+
+#footer_btm			{ background:#161719; display:block; height:40px; margin-top:10px; clear:both}
+#footer_btm_wrap	{ width:980px; margin:auto }
+.foot_nav			{ padding-top:14px; float:left; height:28px; width:500px }
+.foot_nav li		{ float:left; margin:0 10px}
+.foot_nav li a		{ padding:3px 5px; color:#FFF; text-decoration:none }
+.foot_nav li a:hover, .foot_nav li a.active{ background:#F00 ; text-decoration:none; color:#000}
+
+.foot_copy {
+    color: #FFFFFF;
+    float: right;
+    height: 40px;
+    line-height: 44px;
+    text-align: right;
+}
+.right_buttons{float: right;}
+.right_buttons form{float: right;}
+.right_buttons form input{width: 82px; height: 22px; margin:0; overflow: visible;}
+.right_buttons p{padding:3px 0 0 3px; clear:both;}
+.right_buttons a.button_link{width: 60px; text-align: center;}
+a.button_link{padding: 0 10px; line-height: 20px; background-color: #222222; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border
+:1px #000000 solid; color:#ffffff; display: inline-block; }
+a:hover.button_link{text-decoration: none;}
+.margin_lft{margin-left: 3px;}
+.btns { float:left}
+.button_input{padding: 0 10px; height: 20px; background-color: #222222; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border
+:1px #000000 solid; color:#ffffff; cursor: pointer; }
+.fail{
+    background: none repeat scroll 0 0 #FF0000;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 81%;
+    padding: 2px 0;
+}
+.success {
+    background: none repeat scroll 0 0 #008000;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 81%;
+    padding: 2px 0;
+}
+
+.close{
+  padding-right:5px;
+  padding-top:1px;
+  float:right;
+  font-size:10px;
+  text-decoration:underline;
+  color:#FFFFFF
+}.church_content2 h6, .church_des h6, .church_mes h6     { font-size:14px; color:#666; margin:8px 0 0 0; padding:0}
+.church_content2 h4, .church_con h4   { font-size:18px; color:#000; margin-bottom:10px;}
+
+.eventon    { width:auto; float:left; padding:10px; background:#ececec; -moz-border-radius:10px; border-radius:10px; webkit-border-radius:10px; margin-top:10px  }
+.eventon h4   { font-size:12px; color:#0033FF; text-transform:uppercase }
+.eventon h4 span  { color:#000; font-weight:bold; text-transform:capitalize }
+.church_des{display: table;}
+.church_con{overflow: hidden;}
+.event_details_sec{clear: both; padding-top: 15px;}
+
+.paging_section{padding-top: 10px;clear:both}
+.paging_section span.prev, .paging_section span.next, .paging_section span.current{ padding:2px 6px; }
+.paging_section span{display: inline-block; margin: 0 2px ; border: 1px #cccccc solid; float: left;}
+.paging_section span a{ display:inline-block; padding:2px 6px;}
+.paging_section span a:hover{background: #1f60a9; color: #ffffff; text-decoration: none;}
+
+.paging_section span.current{background: #1f60a9; color: #ffffff;}

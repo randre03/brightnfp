@@ -1,0 +1,1 @@
+<div style="text-align:center;font-size:14px"><strong><?php echo __('WELCOME_TO_DASHBOARD'); ?></strong></div>

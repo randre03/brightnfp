@@ -1,0 +1,4 @@
+1.Please upload everything inside the CODE directory into the root of your host.
+2.Please execute both sql files present in DATABASE directory in your database.
+3.Mention your database credentials in the file database.php which is located under /app/config/
+4.Please make sure that the directory UPLOADS and the directory inside it NPO is writeable.

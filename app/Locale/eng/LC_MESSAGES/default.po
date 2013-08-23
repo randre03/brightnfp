@@ -1,0 +1,194 @@
+msgid "USERNAME"
+msgstr "Username"
+
+msgid "PASSWORD"
+msgstr "Password"
+
+msgid "FROM"
+msgstr "From"
+
+msgid "TEMPLATES"
+msgstr "Templates"
+
+msgid "CONTACT_US"
+msgstr "Contact Us"
+
+msgid "EMAIL"
+msgstr "Email"
+
+msgid "THEMES"
+msgstr "Themes"
+
+msgid "AMOUNT_SAVED_SUCCESSFULLY"
+msgstr "Amount Saved Successfully"
+
+msgid "VALID_MONETARY_AMOUNT"
+msgstr "Please supply a valid monetary amount"
+
+msgid "FEE"
+msgstr "Fee: $ "
+
+msgid "FEES"
+msgstr "Fee"
+
+msgid "MANAGE_FEES"
+msgstr "Manage Fee"
+
+msgid "NO_OF_USERS"
+msgstr "No. of Users"
+
+msgid "NO_OF_THEMES"
+msgstr "No. of Themes"
+
+msgid "READ"
+msgstr "Read"
+
+msgid "MANAGE_TEMPLATES"
+msgstr "Manage Templates"
+
+msgid "CMS"
+msgstr "CMS"
+
+msgid "USERNAME_PASSWORD_INCORRECT"
+msgstr "Incorrect Username/Password"
+
+msgid "LOGOUT"
+msgstr "Logout"
+
+msgid "WELCOME_TO_DASHBOARD"
+msgstr "Welcome to the Admin Dashboard"
+
+msgid "LOGOUT_SUCESSFULL"
+msgstr "Logout Successful"
+
+msgid "PLEASE_ENTER_USERNAME"
+msgstr "Please enter username"
+
+msgid "PLEASE_ENTER_PASSWORD"
+msgstr "Please enter password"
+
+msgid "NPO/CHURCHES"
+msgstr "Churches/Npo's"
+
+msgid "MANAGE_NPO"
+msgstr "Manage Npo"
+
+msgid "SRNO"
+msgstr "Sr. No."
+
+msgid "READ_BY_RECIPENT"
+msgstr "Recipent Read"
+
+msgid "HAS_BEEN_READ_BY_RECIPENT"
+msgstr "Read by Recipent"
+
+msgid "READ_ON"
+msgstr "Read On"
+
+msgid "VIEW"
+msgstr "View"
+
+msgid "NO_RECORDS_FOUND"
+msgstr "No Record Found"
+
+msgid "TEMPLATE"
+msgstr "Template"
+
+msgid "ACTION"
+msgstr "Action"
+
+msgid "TEMPLATE"
+msgstr "Template"
+
+msgid "TITLE"
+msgstr "Title"
+
+msgid "DEACTIVATE"
+msgstr "Deactivate"
+
+msgid "TO"
+msgstr "To"
+
+msgid "SUBJECT"
+msgstr "Subject"
+
+msgid "ACTIVATE"
+msgstr "Activate"
+
+msgid "MESSAGES"
+msgstr "Messages"
+
+msgid "COMPOSE"
+msgstr "Compose"
+
+msgid "INBOX"
+msgstr "Inbox"
+
+msgid "SENT"
+msgstr "Sent"
+
+msgid "MESSAGE"
+msgstr "Message"
+
+msgid "RECIPENT"
+msgstr "Recipent"
+
+msgid "SENT_ON"
+msgstr "Sent On"
+
+msgid "SENDER"
+msgstr "Sender"
+
+msgid "REPLY"
+msgstr "Reply"
+
+msgid "ARE_YOU_SURE_YOU_WANT_TO_DELETE_THIS_RECORD"
+msgstr "Are you sure you want to delete this record?"
+
+msgid "DELETE"
+msgstr "Delete"
+
+msgid "MESSAGE_DELETED_SUCCESFULLY"
+msgstr "Message deleted successfully"
+
+msgid "MSG_DELETED_SUCCESFULLY"
+msgstr "Message(s) deleted successfully"
+
+msgid "PLEASE_SELECT_RECIEVER_OF_MESSAGE"
+msgstr "Please select a recipent of message"
+
+msgid "PLEASE_ENTER_SUBJECT"
+msgstr "Please enter subject"
+
+msgid "RECOD_SAVED_SUCCESFULLY"
+msgstr "Record saved successfully"
+
+msgid "ERROR_SENDING_MESSAGE"
+msgstr "Error sending message"
+
+msgid "MESSAGE_SENT_SUCCESFULLY"
+msgstr "Message sent successfully"
+
+msgid "ERROR_SAVING_RECORD"
+msgstr "Error saving record"
+
+msgid "PLEASE_ENTER_MESSAGE"
+msgstr "Please enter message"
+
+msgid "PLEASE_LOGIN_FIRST"
+msgstr "Please login first"
+
+msgid "SENT_ITEMS"
+msgstr "Sent Items"
+
+msgid "FOR_NON_PROFIT"
+msgstr "For Non-Profit"
+
+msgid "ABOUT_US"
+msgstr "About us"
+
+msgid "MEMBERS"
+msgstr "For Members"
+
+msgid "ARE_YOU_SURE_YOU_WANT_TO_CHANGE_THE_STATUS"
+msgstr "Are you sure you want to change the status?"
