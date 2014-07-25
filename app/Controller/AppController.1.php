@@ -3,7 +3,7 @@ App::uses('Core', 'Controller');
 class AppController extends Controller{
 	
 	var $components = array('Session','RequestHandler');
-	var $helpers =  array('Text','Html', 'Form','Session','PaypalIpn.Paypal');
+	var $helpers =  array('Text','Html', 'Form','Ajax','Javascript','Session','PaypalIpn.Paypal');
   /*
     Before filter
   */

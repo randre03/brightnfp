@@ -61,48 +61,21 @@
 
     
 class DATABASE_CONFIG {
-    
-    public $default = array();
-    
-    function __construct() {
-        ## --- APPFOG --- ##
- 
-        // Read in the VCAP_SERVICES environment variable, parse the json, and
-        // check to see if it exists. If it does, use the settings for our default
-        // database connection.
-        $vcap_services = json_decode(getenv("VCAP_SERVICES"), true);
-        if(!empty($vcap_services)) { // database connection credentials 
-            $this->default = array(
-                    'datasource' => 'Database/Mysql',
-                    'persistent' => false,
-                    'host' => $vcap_services['mysql-5.1'][0]['credentials']['host'],
-                    'login' => $vcap_services['mysql-5.1'][0]['credentials']['username'],
-                    'password' => $vcap_services['mysql-5.1'][0]['credentials']['password'],
-                    'database' => $vcap_services['mysql-5.1'][0]['credentials']['name'],
-                    'prefix' => '',
-                    'encoding' => 'utf8',
-            );       
-            if ($vcap_services['mysql-5.1'][0]['credentials']['port']) {
-              $this->default['port'] = $vcap_services['mysql-5.1'][0]['credentials']['port']; // mySQL port
-            }
-        } else { 
-            $this->default = array(
-                    'datasource' => 'Database/Mysql',
-                    'persistent' => false,
-                    'host' => 'localhost',
-                    'login' => 'user',
-                    'password' => 'password',
-                    'database' => 'production_database_name',
-                    'prefix' => '',
-                    // 'encoding' => 'utf8',
-            );
-        }
- 
-        ## --- APPFOG --- ##
-    }
- 
-  public $test = array(
-    	'datasource' => 'Database/Mysql',
+
+	var $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => '$IP',
+		'port' => '3306',	
+		'login' => '$C9_USER',
+		'password' => '',
+		'database' => 'c9',
+		'prefix' => '',
+		//'encoding' => 'utf8',
+	);
+
+	var $test = array(
+		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'user',
@@ -112,3 +85,4 @@ class DATABASE_CONFIG {
 		//'encoding' => 'utf8',
 	);
 }
+
