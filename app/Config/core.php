@@ -49,7 +49,7 @@ ob_start();
  *    Configure::write('log', E_ERROR | E_WARNING);
  *    Configure::write('log', E_ALL ^ E_NOTICE);
  */
-	Configure::write('log', true);
+	Configure::write('log', false);
 
 /**
  * Application wide charset encoding
@@ -331,15 +331,15 @@ ob_start();
 	Configure::write('CHURCH_EVENT_THUMB_URL','http://'.$_SERVER['HTTP_HOST'].'/uploads/npo/{id}/events/thumbs/');
 	Configure::write('SITE_TEMPLATE_ROOT', 'templates/');
     
-    Configure::write('Error', array(
-    'handler' => 'ErrorHandler::handleError',
-    'level' => E_ALL & ~E_DEPRECATED,
-    'trace' => true
-    ));
+    // Configure::write('Error', array(
+    // 'handler' => 'ErrorHandler::handleError',
+    // 'level' => E_ALL & ~E_DEPRECATED,
+    // 'trace' => true
+    // ));
     
-    Configure::write('Exception', array(
-    'handler' => 'ErrorHandler::handleException',
-    'log' => true
-    ));
+    // Configure::write('Exception', array(
+    // 'handler' => 'ErrorHandler::handleException',
+    // 'log' => true
+    // ));
     
-    Configure::write('Error.handler', 'AppError::handleError');
+    // Configure::write('Error.handler', 'AppError::handleError');

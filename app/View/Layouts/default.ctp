@@ -21,9 +21,9 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-    echo $this->Html->script('jquery'); // Include jQuery library
-	<?php echo $this->Html->charset(); ?>
+<head><?php
+    echo $this->Html->script('jquery-1.5.1.min'); // Include jQuery library
+	echo $this->Html->charset(); ?>
 	<title>
 		<?php echo $cakeDescription ?>:
 		<?php echo $title_for_layout; ?>
@@ -58,6 +58,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			?>
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	<?php echo $this->element('sql_dump'); 
+	echo $this->Js->writeBuffer(); // Write cached scripts ?>
 </body>
 </html>

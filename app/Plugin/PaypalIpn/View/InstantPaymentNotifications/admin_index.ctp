@@ -1,5 +1,5 @@
 <div class="instantPaymentNotifications index">
-<h1><?php __('InstantPaymentNotifications');?></h1>
+<h1><?php echo __('InstantPaymentNotifications');?></h1>
 <p>
 <?php
 echo $this->Paginator->counter(array(
@@ -13,7 +13,7 @@ echo $this->Paginator->counter(array(
 	<th><?php echo $this->Paginator->sort('item_number');?></th>
 	<th><?php echo $this->Paginator->sort('payment_gross');?></th>
 	<th><?php echo $this->Paginator->sort('created');?></th>
-	<th class="actions"><?php __('Actions');?></th>
+	<th class="actions"><?php echo __('Actions');?></th>
 </tr>
 <?php
 $i = 0;
@@ -41,7 +41,7 @@ foreach ($instantPaymentNotifications as $instantPaymentNotification):
 		</td>
 		<td class="actions">
 		  <?php echo $this->Html->link('View', array('action' => 'view', $instantPaymentNotification['InstantPaymentNotification']['id'])); ?>
-		  <?php echo $this->Html->link('Edit', array('action' => 'edit', $instantPaymentNotification['InstantPaymentNotification']['id'])); ?>
+		  <?php echo $this->Html->link('Edit', array('action' => 'edit', $instantPaymentNotification['InstantPaymentNotification']['id'])); ?>			
 		  <?php echo $this->Html->link('Delete', array('action' => 'delete', $instantPaymentNotification['InstantPaymentNotification']['id']), null, sprintf(__('Are you sure you want to delete # %s?'), $instantPaymentNotification['InstantPaymentNotification']['id'])); ?>
 		</td>
 	</tr>

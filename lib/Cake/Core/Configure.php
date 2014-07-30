@@ -96,10 +96,10 @@ class Configure {
 			}
 			restore_error_handler();
 
-			self::_setErrorHandlers(
-				self::$_values['Error'],
-				self::$_values['Exception']
-			);
+			// self::_setErrorHandlers(
+			// 	self::$_values['Error'],
+			// 	self::$_values['Exception']
+			// );
 
 			// Preload Debugger + String in case of E_STRICT errors when loading files.
 			if (self::$_values['debug'] > 0) {

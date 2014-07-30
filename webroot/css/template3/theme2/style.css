@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************************HTML5 RESET******************/
+body{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; color: #333333; font-size: 12px; background:url(/img/template3/theme2/body-bg.png) repeat-x}
+input, select, textarea {font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+
+h1,h2,h3,h4,h5,ul,li,p,div,form{margin:0px; padding:0px;}
+h1,h2,h3,h4,h5{line-height:normal;}
+h1{font-size:22px;}
+h2{font-size:18px;}
+h3{font-size:16px;}
+h4{font-size:14px;}
+h5{font-size:12px;}
+ul,li{list-style:none;}
+
+a{color:#404040; text-decoration:none; outline: none;}
+a:hover{text-decoration: underline;}
+
+textarea{color:#a3a3a3; font-weight:bold;}
+
+.clear{clear:both; line-height:0px; font-size:0px;}
+img {border:none;}
+section, article, aside, header, footer, nav, dialog, figure {display:block; padding:0px; margin:0px; }
+
+/**** WRAPPER ******/
+#wrapper		{ width:980px; margin:0 auto;}
+
+/*** Header ***/
+#header				{ height:85px; border-bottom:1px #3caa18 solid; margin-bottom:45px;}
+#logo				{ float:left; width:302px; }
+#logo h1			{ font-size:45px;  color:#fff; padding:15px 0 0 15px; text-shadow: 0.1em 0.1em 0.1em #333;}
+#logo span			{ font-weight:lighter;}
+
+
+#nav				{ float:right; padding-top:46px;}
+#nav li				{ float:left; font-weight:lighter; }
+#nav li a			{ font-size:16px; color:#FFF; line-height:40px; padding:0 15px; display:block; margin:0 10px}
+#nav li a:hover, 
+#nav li a.active	{ text-decoration:none; background:url(/img/template3/theme2/menu-bg-active.png) no-repeat center bottom;}
+#nav li.last		{ background:none;}
+
+#banner{height:325px;  background:url(/img/template3/theme2/header-fade.png) no-repeat center bottom;}
+.banner_content{width:270px; float:left; color:#ffffff; padding:15px 0 15px 15px; line-height:22px; font-size:11px;}
+.banner_content h1{font-size:32px; font-family:"Times New Roman", Times, serif; font-weight:lighter; line-height:32px; padding-bottom:5px;}
+.banner_content p{margin-top:10px;}
+.slider_widget{width:583px; float:right;}
+.slider_widget img{display:block; padding:10px; background:#ffffff;}
+a.read_more{background:#3c8116; padding:0 10px; color:#ffffff; line-height:24px; display:inline-block; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; font-size:10px;}
+a:hover.read_more{text-decoration:none;}
+
+#content			{ overflow:hidden;}
+#left-widget	 	{ float:left; width:287px; padding:12px;}
+#right-widget		{ float:right; width:595px; padding:15px 30px 15px 0;}
+
+.post				{padding:10px 0;} 
+.post h1			{ color:#3c8116; font-weight:lighter; font-size:24px; margin:8px 0; }
+.post p		        {line-height:18px; padding:5px 0;}
+
+.module				{ clear:both; margin:25px 0 20px 0;}
+h1.line				{ width:100%; font-size:20px; font-weight:lighter; margin:10px 0 }
+
+.search				{background:#f0e2e2; padding:18px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+.search input       {vertical-align:middle; margin:0 3px;}
+.search .search_text {background:url(/img/template3/theme2/search-input-bg.png) no-repeat; width:163px; height:19px; border:none; padding:5px;}
+.search_btn          {background:#3c8116; width:58px; height:29px; border:none; color:#ffffff; cursor:pointer; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+
+ul.listing			{ margin:0; width:235px;}
+ul.listing li       {background:url(/img/template3/theme2/arrow.png) left no-repeat; padding-left:10px; }
+ul.listing li a		{line-height:25px; border-bottom:1px #989898 dotted; display:block;}
+ul.listing li a:hover{text-decoration:none; background:#f1f1f1; color:#3c8116;}
+
+ul#gallery			{ margin:0;}
+ul#gallery li		{ float:left; background:#c9bdac; padding:4px; margin:3px}
+ul#gallery img		{ width:104px; height:78px; display:block; }
+ul#gallery li:hover	{ background:#c91b01;}
+ul#gallery li a		{ display:block;}
+
+a.readmore{background:url(/img/template3/theme2/read-more-button.png) no-repeat; height:19px; width:66px; display:inline-block; text-indent:-9999px; font-size:0;}
+
+
+#footer_wrap		{background:#2a5f0d; width:100%;}
+#footer             {width:970px; margin:0 auto; font-size:11px; overflow:hidden;}
+.foot_nav			{ padding-top:14px; float:left; height:28px; width:500px }
+.foot_nav li		{ float:left; margin:0 10px}
+.foot_nav li a		{ padding:3px; color:#ffffff; text-decoration:none }
+.foot_nav li a:hover, 
+.foot_nav li a.active{ text-decoration:underline; color:#ffffff;}
+
+.foot_copy {color: #ffffff; float: right; height: 40px; line-height: 44px; text-align: right;}
+.right_buttons{float: right;}
+.right_buttons form{float: right;}
+.right_buttons form input{width: 82px; height: 22px; margin:0; overflow: visible;}
+.right_buttons p{padding:3px 0 0 3px; clear:both;}
+.right_buttons a.button_link{width: 60px; text-align: center;}
+a.button_link{padding: 0 10px; line-height: 20px; background-color: #222222; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border
+:1px #000000 solid; color:#ffffff; display: inline-block; }
+a:hover.button_link{text-decoration: none;}
+.margin_lft{margin-left: 3px;}
+.btns { float:left}
+.button_input{padding: 0 10px; height: 20px; background-color: #222222; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border
+:1px #000000 solid; color:#ffffff; cursor: pointer; }
+.fail{
+    background: none repeat scroll 0 0 #FF0000;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 81%;
+    padding: 2px 0;
+}
+.success {
+    background: none repeat scroll 0 0 #008000;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 81%;
+    padding: 2px 0;
+}
+
+.close{
+  padding-right:5px;
+  padding-top:1px;
+  float:right;
+  font-size:10px;
+  text-decoration:underline;
+  color:#FFFFFF
+}.church_content2 h6, .church_des h6, .church_mes h6     { font-size:14px; color:#666; margin:8px 0 0 0; padding:0}
+.church_content2 h4, .church_con h4   { font-size:18px; color:#000; margin-bottom:10px;}
+
+.eventon    { width:auto; float:left; padding:10px; background:#ececec; -moz-border-radius:10px; border-radius:10px; webkit-border-radius:10px; margin-top:10px  }
+.eventon h4   { font-size:12px; color:#0033FF; text-transform:uppercase }
+.eventon h4 span  { color:#000; font-weight:bold; text-transform:capitalize }
+.church_des{display: table;}
+.church_con{overflow: hidden;}
+.event_details_sec{clear: both; padding-top: 15px;}
+
+.paging_section{padding-top: 10px;clear:both}
+.paging_section span.prev, .paging_section span.next, .paging_section span.current{ padding:2px 6px; }
+.paging_section span{display: inline-block; margin: 0 2px ; border: 1px #cccccc solid; float: left;}
+.paging_section span a{ display:inline-block; padding:2px 6px;}
+.paging_section span a:hover{background: #1f60a9; color: #ffffff; text-decoration: none;}
+
+.paging_section span.current{background: #1f60a9; color: #ffffff;}

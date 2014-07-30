@@ -24,6 +24,7 @@
 CakePlugin::loadAll();
 
 App::uses('AppError', 'Lib');
+CakePlugin::load('PaypalIpn', array('bootstrap' => array('paypal_ipn_config'), 'routes' => true));
 
 /**
  * The settings below can be used to set additional paths to models, views and controllers.

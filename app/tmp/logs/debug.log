@@ -38,3 +38,68 @@
 2012-01-18 22:13:38 Notice: Notice (8): Undefined index:  gallery in [/home/isteam/public_html/churchesnpo/app/controllers/registrations_controller.php, line 120]
 2012-01-18 22:16:07 Notice: Notice (8): Undefined index:  group in [/home/isteam/public_html/churchesnpo/app/plugins/uploader/controllers/components/uploader.php, line 1136]
 2012-01-18 22:17:52 Notice: Notice (8): Undefined index:  group in [/home/isteam/public_html/churchesnpo/app/plugins/uploader/controllers/components/uploader.php, line 1136]
+2014-07-25 17:06:33 Notice: Notice (8): Undefined variable: paypal in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+Trace:
+AppError::handleError() - APP/Lib/AppError.php, line 9
+include - APP/View/Users/index.ctp, line 6
+View::_evaluate() - CORE/lib/Cake/View/View.php, line 945
+View::_render() - CORE/lib/Cake/View/View.php, line 907
+View::render() - CORE/lib/Cake/View/View.php, line 471
+Controller::render() - CORE/lib/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/lib/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/lib/Cake/Routing/Dispatcher.php, line 162
+require - APP/webroot/index.php, line 111
+[main] - CORE/index.php, line 55
+
+2014-07-25 17:06:36 Notice: Notice (8): Undefined variable: paypal in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+Trace:
+AppError::handleError() - APP/Lib/AppError.php, line 9
+include - APP/View/Users/index.ctp, line 6
+View::_evaluate() - CORE/lib/Cake/View/View.php, line 945
+View::_render() - CORE/lib/Cake/View/View.php, line 907
+View::render() - CORE/lib/Cake/View/View.php, line 471
+Controller::render() - CORE/lib/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/lib/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/lib/Cake/Routing/Dispatcher.php, line 162
+require - APP/webroot/index.php, line 111
+[main] - CORE/index.php, line 55
+
+2014-07-25 17:06:39 Notice: Notice (8): Undefined variable: paypal in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+Trace:
+AppError::handleError() - APP/Lib/AppError.php, line 9
+include - APP/View/Users/index.ctp, line 6
+View::_evaluate() - CORE/lib/Cake/View/View.php, line 945
+View::_render() - CORE/lib/Cake/View/View.php, line 907
+View::render() - CORE/lib/Cake/View/View.php, line 471
+Controller::render() - CORE/lib/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/lib/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/lib/Cake/Routing/Dispatcher.php, line 162
+require - APP/webroot/index.php, line 111
+[main] - CORE/index.php, line 55
+
+2014-07-25 17:06:42 Notice: Notice (8): Undefined variable: paypal in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+Trace:
+AppError::handleError() - APP/Lib/AppError.php, line 9
+include - APP/View/Users/index.ctp, line 6
+View::_evaluate() - CORE/lib/Cake/View/View.php, line 945
+View::_render() - CORE/lib/Cake/View/View.php, line 907
+View::render() - CORE/lib/Cake/View/View.php, line 471
+Controller::render() - CORE/lib/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/lib/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/lib/Cake/Routing/Dispatcher.php, line 162
+require - APP/webroot/index.php, line 111
+[main] - CORE/index.php, line 55
+
+2014-07-25 17:06:43 Notice: Notice (8): Undefined variable: paypal in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+Trace:
+AppError::handleError() - APP/Lib/AppError.php, line 9
+include - APP/View/Users/index.ctp, line 6
+View::_evaluate() - CORE/lib/Cake/View/View.php, line 945
+View::_render() - CORE/lib/Cake/View/View.php, line 907
+View::render() - CORE/lib/Cake/View/View.php, line 471
+Controller::render() - CORE/lib/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/lib/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/lib/Cake/Routing/Dispatcher.php, line 162
+require - APP/webroot/index.php, line 111
+[main] - CORE/index.php, line 55
+

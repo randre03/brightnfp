@@ -7,7 +7,7 @@
 <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <?php
-  echo $javascript->link(array('jquery','jquery.min','jquery.validate','jquery.alerts'));
+  echo $this->Js->link(array('jquery','jquery.min','jquery.validate','jquery.alerts'));
   echo $this->Html->css(array('frontendstyle','jquery.alerts')); 
   
 ?>

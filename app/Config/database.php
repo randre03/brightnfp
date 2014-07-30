@@ -65,9 +65,9 @@ class DATABASE_CONFIG {
 	var $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => '$IP',
+		'host' => '0.0.0.0',
 		'port' => '3306',	
-		'login' => '$C9_USER',
+		'login' => 'randre03',
 		'password' => '',
 		'database' => 'c9',
 		'prefix' => '',

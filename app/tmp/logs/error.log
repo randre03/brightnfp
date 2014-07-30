@@ -557,3 +557,860 @@ Stack Trace:
 #12 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
 #14 {main}
+2014-07-24 22:11:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2005] Unknown MySQL server host \'$IP\' (2)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3225): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#6 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#14 {main}
+2014-07-24 22:12:08 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2005] Unknown MySQL server host \'$IP\' (2)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3225): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#6 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#14 {main}
+2014-07-24 22:12:11 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2005] Unknown MySQL server host \'$IP\' (2)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3225): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#6 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#14 {main}
+2014-07-24 22:13:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2005] Unknown MySQL server host \'$IP\' (2)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3225): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#6 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#14 {main}
+2014-07-24 22:13:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2005] Unknown MySQL server host \'$IP\' (2)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3225): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#6 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#14 {main}
+2014-07-24 22:14:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2005] Unknown MySQL server host \'$IP\' (2)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3225): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#6 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#14 {main}
+2014-07-24 22:15:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2005] Unknown MySQL server host \'$IP\' (2)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3225): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#6 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#14 {main}
+2014-07-24 22:19:46 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-24 22:21:12 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-24 22:21:15 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-24 23:32:00 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-24 23:32:05 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-24 23:33:20 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-24 23:33:56 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-24 23:54:39 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-24 23:54:53 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-25 10:38:17 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-25 10:48:22 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-25 10:48:25 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-25 10:48:26 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-25 10:50:15 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-25 10:52:39 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-25 10:53:16 Error: [MissingTableException] Table fees for model Fee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fees',
+  'class' => 'Fee',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3247): Model->setSource('fees')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/AppController.php(13): Model->find('first', Array)
+#3 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#4 /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#10 {main}
+2014-07-25 11:01:33 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 11:01:33 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 11:01:33 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 11:20:21 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 11:20:21 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 11:20:21 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 15:17:15 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 15:17:15 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 15:17:15 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 15:56:39 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 15:56:39 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 15:56:39 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 15:56:42 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 15:56:42 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 15:56:42 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 15:57:07 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 15:57:07 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 15:57:07 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 16:05:28 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 16:05:28 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 16:05:28 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 16:19:47 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 16:19:47 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 16:19:47 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 16:19:53 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 16:19:53 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 16:19:53 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 16:19:54 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 16:19:54 Error: Fatal Error (1): Cannot redeclare class PaypalIpnConfig in [/home/ubuntu/workspace/app/Plugin/PaypalIpn/Config/PaypalIpnConfig.php, line 9]
+2014-07-25 16:19:54 Error: [FatalErrorException] Cannot redeclare class PaypalIpnConfig
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#2 [internal function]: AppError::handleError(1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Cannot redeclar...', '/home/ubuntu/wo...', 9, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 16:21:16 Error: [MissingHelperException] Helper class PaypalHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PaypalHelper',
+  'plugin' => 'PaypalIpn',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(882): HelperCollection->load('PaypalIpn.Paypa...', Array)
+#1 /home/ubuntu/workspace/lib/Cake/View/View.php(464): View->loadHelpers()
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#7 {main}
+2014-07-25 16:24:08 Error: [MissingHelperException] Helper class PaypalHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PaypalHelper',
+  'plugin' => 'PaypalIpn',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(882): HelperCollection->load('PaypalIpn.Paypa...', Array)
+#1 /home/ubuntu/workspace/lib/Cake/View/View.php(464): View->loadHelpers()
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#7 {main}
+2014-07-25 16:24:34 Error: [MissingHelperException] Helper class PaypalHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PaypalHelper',
+  'plugin' => 'PaypalIpn',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(882): HelperCollection->load('PaypalIpn.Paypa...', Array)
+#1 /home/ubuntu/workspace/lib/Cake/View/View.php(464): View->loadHelpers()
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#7 {main}
+2014-07-25 16:29:30 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 16:29:31 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 16:30:42 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 16:30:44 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Users/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(55): require('/home/ubuntu/wo...')
+#6 {main}
+2014-07-25 17:06:33 Error: Fatal Error (1): Call to a member function button() on a non-object in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+2014-07-25 17:06:33 Error: [InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#2 [internal function]: AppError::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 17:06:36 Error: Fatal Error (1): Call to a member function button() on a non-object in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+2014-07-25 17:06:36 Error: [InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#2 [internal function]: AppError::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 17:06:39 Error: Fatal Error (1): Call to a member function button() on a non-object in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+2014-07-25 17:06:39 Error: [InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#2 [internal function]: AppError::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 17:06:42 Error: Fatal Error (1): Call to a member function button() on a non-object in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+2014-07-25 17:06:42 Error: [InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#2 [internal function]: AppError::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
+2014-07-25 17:06:43 Error: Fatal Error (1): Call to a member function button() on a non-object in [/home/ubuntu/workspace/app/View/Users/index.ctp, line 6]
+2014-07-25 17:06:43 Error: [InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6)
+#1 /home/ubuntu/workspace/app/Lib/AppError.php(9): ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#2 [internal function]: AppError::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('AppError::handl...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 6, Array)
+#4 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#5 [internal function]: App::shutdown()
+#6 {main}
